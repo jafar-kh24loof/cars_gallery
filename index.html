@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Gallery</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- <nav>
+        <h1>Apex<span class="spn-1">Motors</span></h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#featured">Cars</a></li>
+            <li><a href="#choose">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button>Book Now</button>
+    </nav> -->
+
+    <section class="banner" >
+        <div class="container">
+            <h1>Find Your <span class="spn-2">Dream Car</span></h1>
+            <p>Discover the finest luxury, sports, and modern cars at unbeatable prices.</p>
+            <div class="btns">
+                <button class="btn-l">Ecplore Cars</button>
+                <button class="btn-r">Contact Us</button>
+            </div>
+        </div>
+    </section>
+    <!-- featured -->
+    <section class="featured" id="featured">
+        <h1>Featured Cars</h1>
+        <p>Take a look at our most popular vehicles</p>
+        <div class="sect-2">
+            <div class="item">
+                <img src="./images/photo-1503376780353-7e6692767b70.avif" alt="Porsche ">
+                <div class="content">
+                    <h3>Ferrari F8 Tributo</h3>
+                    <p>Legendary V8 supercar with exhilarating speed and Italian design.</p>
+                    <p class="ph-2"> Top Speed: 340 km/h 0-100: 2.9s</p>
+                </div>
+                <div class="displying">
+                    <h3>$280,000</h3>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/photo-1563720223185-11003d516935.avif" alt="Porsche ">
+                <div class="content">
+                    <h3>Porsche 911 Carrera</h3>
+                    <p>Twin-turbo flat-six engine delivering pure sports performance.</p>
+                    <p class="ph-2"> Top Speed: 293 km/h 0-100: 4.2s</p>
+                </div>
+                <div class="displying">
+                    <h3>$114,400</h3>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images//photo-1583121274602-3e2820c69888.avif" alt="Porsche ">
+                <div class="content">
+                    <h3>Range Rover Sport</h3>
+                    <p>Luxury SUV combining supreme comfort with all-terrain capability.</p>
+                    <p class="ph-2">Top Speed: 250 km/h 0-100: 4.5s</p>
+                </div>
+                <div class="displying">
+                    <h3>$104,500</h3>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./images/photo-1618843479313-40f8afb4b4d8.avif" alt="Porsche ">
+                <div class="content">
+                    <h3>Mercedes-AMG GT</h3>
+                    <p>Handcrafted AMG engine with luxury styling and modern tech.</p>
+                    <p class="ph-2">Top Speed: 315 km/h 0-100: 3.2s</p>
+                </div>
+                <div class="displying">
+                    <h3>$175,900</h3>
+                    <button class="btn">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Choose -->
+    <section>
+        <div class="choose" id="choose">
+            <h1>Why Choose Us?</h1>
+            <p>We provide the best car buying experience</p>
+            <div class="choo">
+                <div class="item-2">
+                    <p class="icon">⭐</p>
+                    <h2>Certified Quality</h2>
+                    <p>Every vehicle undergoes a thorough 150-point inspection before delivery.</p>
+                </div>
+                <div class="item-2">
+                    <p class="icon">💳</p>
+                    <h2>Flexible Financing</h2>
+                    <p>Easy payment plans and low-interest rates to suit your budget.</p>
+                </div>
+                <div class="item-2">
+                    <p class="icon">🛡️</p>
+                    <h2>Warranty Included</h2>
+                    <p>Full 3-year warranty and 24/7 roadside assistance on all vehicles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="contact">
+            <div>
+                <h1>Contact Us</h1>
+                <p>Have questions? Send us a message or visit our showroom</p>
+            </div>
+            
+                <form class="inpt">
+                    <label>Your Name</label>
+                    <input type="text" class="form-styel" placeholder="jafar kh" required>
+                    <label>Your Email</label>
+                    <input type="email" class="form-styel" placeholder="jafar kh@email.com">
+                    <label>Select Car</label>
+                    <select name="car" class="form-styel" >
+                        <option value="Porsche">Porsche 911 Carrera</option>
+                        <option value="marcedes">Mercedes-AMG GT</option>
+                        <option value="range">Range Rover Sport</option>
+                        <option value="ferrari">Ferrari F8 Tributo</option>
+
+                    </select>
+                    <label>Message</label>
+                    <textarea class="form-styel" placeholder="Write Your message here..." rows="5" ></textarea>
+                    <button class="btn-4"><h3>Send Message</h3></button>
+                </form>
+            
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Apex Motors. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
